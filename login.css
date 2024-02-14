@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+body{
+    /* background: repeating-linear-gradient(-45deg, transparent, transparent 2px, purple 2px, purple 4px); */
+    overflow-y: hidden;
+}
+
+header{
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-shadow: 0 0 5px gray;
+    transition: 1.5s;
+    background: whitesmoke;
+}
+
+header img{
+    margin-top: -0.1rem;
+}
+
+header p{
+    margin-top: 1.4rem;
+    margin-left: -2.5rem;
+    font-weight: bold;
+}
+
+.fill{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 1.5rem;
+}
+.write{
+     box-shadow: 0 0 5px gray;
+   padding: 2rem;
+}
+
+.fill input{
+    padding:0.7rem 5rem;
+    margin-bottom: 1rem;
+}
+
+.fill button{
+    padding:0.7rem 9.3rem;
+    margin-top: 1rem;
+    font-weight: bolder;
+    background: blue;
+    color: whitesmoke;
+    border: none;
+    margin-bottom: 1rem;
+}
+.see{
+    display: flex;
+}
+
+.see i{
+    margin-left: -3rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.fill .forget{
+    color: red;
+  margin-bottom: 4rem;
+}
+.create a{
+    margin-top: 3rem;
+}
+.footer p{
+   text-align: center;
+   margin-top: 11rem;
+   letter-spacing: 0.1rem;
+
+}
